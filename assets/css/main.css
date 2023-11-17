@@ -1,0 +1,86 @@
+/* main.css */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.page-container {
+    flex: 1;
+    overflow-y: auto;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #61dafb;
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type='radio'] {
+    margin-right: 5px;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    background-color: #61dafb;
+    color: #2d2d2d;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.submit-button:hover {
+    background-color: #1f1f1f;
+    color: #61dafb;
+    transform: scale(1.05);
+}
+
+.link {
+    text-decoration: none;
+    color: #61dafb;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+.link:hover {
+    color: #fff;
+}
